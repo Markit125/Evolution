@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8717300683455624874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8717300683455624873}
+  - component: {fileID: 8717300683455624872}
+  - component: {fileID: 4876648337951152764}
+  - component: {fileID: 2761452415678805868}
+  - component: {fileID: 5449586564670287287}
+  m_Layer: 0
+  m_Name: Processor 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8717300683455624873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8717300683455624874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8717300683455624872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8717300683455624874}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2f71c128742b248a0705f406a4fb9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food: []
+  bacterias: []
+  bacteriasN: []
+  bacteriasNB: []
+  ChangeFood: 0
+  UpdateDate: 1
+  numf: 0
+  numb: 0
+--- !u!114 &4876648337951152764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8717300683455624874}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 781eade12573ec14c860e245089858b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countFood: 0
+  FoodTime: 1
+  countPerCycle: 15
+  FoodPrefab: {fileID: 6576525523059246994, guid: 0c8448ce490835e4ea59c1999637d53f,
+    type: 3}
+  timer: 1
+--- !u!114 &2761452415678805868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8717300683455624874}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9900e7555af39904aaf035f5c7696623, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
+  View: 1
+  startEnergy: 1000
+  pochEnergy: 2000
+  len: 400
+  wid: 40
+  countBacts: 5
+  BacteriaPrefab: {fileID: 2629904159634089487, guid: 6ee704c8a9a3ec94fbad7e69012b8544,
+    type: 3}
+--- !u!114 &5449586564670287287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8717300683455624874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f6b09b24b118314c949d342087bd76b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txt: {fileID: 4900000, guid: 45c5475d72bfdcb46bc318958ddc648e, type: 3}

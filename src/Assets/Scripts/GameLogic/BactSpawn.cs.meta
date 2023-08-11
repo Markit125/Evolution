@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 9900e7555af39904aaf035f5c7696623
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - BacteriaPrefab: {fileID: 2629904159634089487, guid: 6ee704c8a9a3ec94fbad7e69012b8544,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
